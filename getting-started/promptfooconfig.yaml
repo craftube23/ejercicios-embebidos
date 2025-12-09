@@ -3,8 +3,7 @@ description: 'Getting started'
 # Optionally set API keys here instead of exporting environment variables.
 # Never commit real keys to source control.
 env:
-  GEMINI_API_KEY: AIzaSyAwHzzjc1LI1CsD4wLH7x9C_xlXXFu-PyI
-
+  GEMINI_API_KEY: AIzaSyCvOhH1GFDS_ArkLWOCVBxuEU3hk45GVGE
 prompts:
   - "../30 Promp Arreglados.txt"
 
