@@ -1,0 +1,450 @@
+# 30 Prompts Reescritos — Archivo Completo en Markdown
+
+## PROMPT 1 — Expresiones vs Declaraciones
+### Instrucción
+Actúa como un profesor especializado en JavaScript para jóvenes entre 17 y 24 años. Tu tarea será transformar cada concepto que te envíe en una clase completa: bien explicada, profunda, con ejemplos reales, análisis detallados y advertencias típicas de principiantes. No quiero definiciones cortas: quiero una explicación con intención pedagógica.
+
+### Contexto
+Estoy estudiando JavaScript desde cero y me cuesta diferenciar entre expresiones y declaraciones. A veces escribo código que funciona, pero no entiendo qué estoy realmente escribiendo. Quiero comprender a fondo ambas ideas para programar con claridad mental.
+
+### Entrada
+Explícame mediante un caso práctico la diferencia entre una expresión y una declaración.
+
+### Salida
+Genera una explicación profunda, con teoría, un ejemplo ejecutable, análisis línea por línea y una lista de errores típicos.
+
+---
+
+## PROMPT 2 — Precedencia de Operadores
+### Instrucción
+Explícame como docente experto cómo JavaScript decide el orden de ejecución en una expresión. Incluye teoría, ejemplos y análisis detallado.
+
+### Contexto
+A veces obtengo resultados inesperados porque no comprendo el orden en que JavaScript resuelve las operaciones.
+
+### Entrada
+Explícame la precedencia de operadores.
+
+### Salida
+Teoría profunda, ejemplos y advertencias.
+
+---
+
+## PROMPT 3 — Tipos de Datos Primitivos
+### Instrucción
+Deseo que actúes como un profesor experto en programación y me enseñes a fondo cómo funcionan los tipos primitivos en JavaScript. Profundiza en cada tipo, cómo los maneja el motor del lenguaje, ejemplos, casos reales y explicación línea por línea.
+
+### Contexto
+Conozco los nombres de los tipos primitivos, pero no comprendo cómo funcionan internamente ni por qué son inmutables.
+
+### Entrada
+Explícame detalladamente qué son los tipos primitivos.
+
+### Salida
+Una explicación extensa y profesional con ejemplos claros.
+
+---
+
+## PROMPT 4 — Conversión de Tipos
+### Instrucción
+Explícame como docente experto cómo JavaScript transforma valores entre tipos, tanto de forma automática como manual. Necesito teoría, ejemplos y análisis profundo.
+
+### Contexto
+Sufro resultados inesperados cuando mezclo strings, números y booleanos. Quiero entender realmente cómo funciona la coerción.
+
+### Entrada
+Explícame a fondo el sistema de conversión de tipos en JavaScript.
+
+### Salida
+Teoría amplia, ejemplos ejecutables, análisis y errores frecuentes.
+
+---
+
+## PROMPT 5 — typeof
+### Instrucción
+Enséñame en profundidad cómo funciona el operador `typeof`, sus excepciones, sus limitaciones y usos reales.
+
+### Contexto
+Veo resultados raros como `typeof null` y no entiendo por qué ocurren.
+
+### Entrada
+Explícame profundamente el operador `typeof`.
+
+### Salida
+Teoría, ejemplo, análisis línea por línea y advertencias.
+
+---
+
+## PROMPT 6 — Operadores Aritméticos
+### Instrucción
+Quiero una explicación completa de los operadores matemáticos en JavaScript: suma, resta, multiplicación, división, módulo y exponentes.
+
+### Contexto
+Algunas operaciones dan resultados que no comprendo, especialmente las divisiones y el módulo.
+
+### Entrada
+Explícame los operadores aritméticos en profundidad.
+
+### Salida
+Teoría, ejemplo, análisis y errores comunes.
+
+---
+
+## PROMPT 7 — Operadores Lógicos
+### Instrucción
+Explícame cómo funcionan `&&`, `||` y `!`, tanto con booleanos como con valores truthy/falsy.
+
+### Contexto
+Me cuesta entender por qué ciertos valores se evalúan como verdaderos o falsos.
+
+### Entrada
+Explícame los operadores lógicos de forma extensa.
+
+### Salida
+Teoría, ejemplos y análisis.
+
+---
+
+## PROMPT 8 — Comparaciones
+### Instrucción
+Explícame en detalle la diferencia entre comparación débil (`==`) y estricta (`===`).
+
+### Contexto
+Los resultados de `==` me parecen extraños.
+
+### Entrada
+Explícame profundamente los operadores de comparación.
+
+### Salida
+Teoría, ejemplos y advertencias.
+
+---
+
+## PROMPT 9 — var, let y const
+### Instrucción
+Enseña profundamente las diferencias entre `var`, `let` y `const`: scope, hoisting y comportamiento interno.
+
+### Contexto
+No sé cuándo usar cada una correctamente.
+
+### Entrada
+Explica a fondo las diferencias entre estas declaraciones.
+
+### Salida
+Teoría completa y ejemplo.
+
+---
+
+## PROMPT 10 — Template Strings
+### Instrucción
+Explícame detalladamente qué son los template literals y por qué reemplazan a la concatenación clásica.
+
+### Contexto
+Necesito comprender interpolación y multilineas.
+
+### Entrada
+Explica los template strings en profundidad.
+
+### Salida
+Teoría, ejemplos y análisis.
+
+---
+
+## PROMPT 11 — Operadores de Asignación
+### Instrucción
+Enséñame cómo funcionan los operadores como `+=`, `-=`, `*=`, etc.
+
+### Contexto
+Me confundo con sus efectos.
+
+### Entrada
+Explica cada operador de asignación.
+
+### Salida
+Teoría, ejemplo y análisis.
+
+---
+
+## PROMPT 12 — Objetos
+### Instrucción
+Explícame a nivel profundo qué son los objetos y cómo funcionan sus propiedades.
+
+### Contexto
+Me confunden la mutabilidad y la referencia.
+
+### Entrada
+Explícame qué son los objetos.
+
+### Salida
+Teoría, ejemplo y análisis profundo.
+
+---
+
+## PROMPT 13 — Métodos en Objetos
+### Instrucción
+Explícame qué son los métodos y cómo usan `this`.
+
+### Contexto
+No entiendo por qué las funciones dentro de objetos funcionan distinto.
+
+### Entrada
+Enséñame qué son los métodos.
+
+### Salida
+Teoría, ejemplo y análisis.
+
+---
+
+## PROMPT 14 — Arrays
+### Instrucción
+Explícame profundamente qué son los arrays y sus operaciones básicas.
+
+### Contexto
+No sé por qué empiezan en índice 0 ni cómo funcionan sus métodos.
+
+### Entrada
+Explícame los arrays y cómo manipularlos.
+
+### Salida
+Teoría, ejemplo y análisis.
+
+---
+
+## PROMPT 15 — map, filter, reduce
+### Instrucción
+Explícame cómo funcionan estos tres métodos fundamentales.
+
+### Contexto
+No sé cuándo usar cada uno.
+
+### Entrada
+Enséñame map, filter y reduce.
+
+### Salida
+Teoría, ejemplos y análisis.
+
+---
+
+## PROMPT 16 — Bucles
+### Instrucción
+Explícame los bucles principales: for, while, for…of y for…in.
+
+### Contexto
+Me confunde cuándo usar cada uno.
+
+### Entrada
+Explícame los bucles.
+
+### Salida
+Teoría, ejemplo y análisis.
+
+---
+
+## PROMPT 17 — Funciones Declaradas vs Expresadas
+### Instrucción
+Enséñame las diferencias reales entre funciones declaradas y expresadas.
+
+### Contexto
+No entiendo el hoisting.
+
+### Entrada
+Explica profundamente ambas formas de función.
+
+### Salida
+Teoría, ejemplo y análisis.
+
+---
+
+## PROMPT 18 — Arrow Functions
+### Instrucción
+Explícame a fondo cómo funcionan las funciones flecha y su comportamiento con `this`.
+
+### Contexto
+Veo que son populares pero no comprendo sus limitaciones.
+
+### Entrada
+Explica las arrow functions.
+
+### Salida
+Teoría, ejemplos y advertencias.
+
+---
+
+## PROMPT 19 — Parámetros y Argumentos
+### Instrucción
+Enséñame claramente la diferencia entre parámetros y argumentos.
+
+### Contexto
+Me confunden los valores undefined al no enviar argumentos.
+
+### Entrada
+Explica parámetros vs argumentos.
+
+### Salida
+Teoría, ejemplos y análisis.
+
+---
+
+## PROMPT 20 — Parámetros por Defecto
+### Instrucción
+Explícame cómo evitar valores undefined usando parámetros por defecto.
+
+### Contexto
+A veces olvido enviar argumentos.
+
+### Entrada
+Enséñame parámetros por defecto.
+
+### Salida
+Teoría, ejemplo y análisis.
+
+---
+
+## PROMPT 21 — Spread Operator
+### Instrucción
+Explícame qué hace el operador spread y cómo se aplica a arrays y objetos.
+
+### Contexto
+Me confunde su uso dual.
+
+### Entrada
+Explícame el operador spread.
+
+### Salida
+Teoría, ejemplos y advertencias.
+
+---
+
+## PROMPT 22 — Rest Parameters
+### Instrucción
+Enséñame cómo agrupar múltiples argumentos con parámetros rest.
+
+### Contexto
+No entiendo cómo `...` funciona distinto dependiendo del contexto.
+
+### Entrada
+Explica rest parameters.
+
+### Salida
+Teoría, ejemplos y análisis.
+
+---
+
+## PROMPT 23 — Desestructuración de Arrays
+### Instrucción
+Explícame cómo extraer valores de un array de manera simple usando destructuring.
+
+### Contexto
+No entiendo la sintaxis.
+
+### Entrada
+Enséñame la desestructuración de arrays.
+
+### Salida
+Teoría, ejemplo y análisis.
+
+---
+
+## PROMPT 24 — Desestructuración de Objetos
+### Instrucción
+Explícame cómo extraer propiedades de un objeto y renombrarlas.
+
+### Contexto
+Quiero dominar esta sintaxis.
+
+### Entrada
+Explica la desestructuración de objetos.
+
+### Salida
+Teoría, ejemplo y análisis.
+
+---
+
+## PROMPT 25 — JSON
+### Instrucción
+Enséñame qué es JSON, cómo se estructura y cómo convertir datos con stringify y parse.
+
+### Contexto
+Lo veo en APIs y no lo entiendo completamente.
+
+### Entrada
+Explícame JSON.
+
+### Salida
+Teoría, ejemplo y análisis.
+
+---
+
+## PROMPT 26 — try…catch
+### Instrucción
+Explícame cómo manejar errores usando try, catch y finally.
+
+### Contexto
+Quiero evitar que mi programa colapse por errores.
+
+### Entrada
+Enséñame manejo de errores.
+
+### Salida
+Teoría, ejemplo y análisis.
+
+---
+
+## PROMPT 27 — Asincronía
+### Instrucción
+Enséñame qué es la asincronía en JavaScript y cómo funciona el event loop.
+
+### Contexto
+El código asincrónico me parece desordenado.
+
+### Entrada
+Explica la asincronía.
+
+### Salida
+Teoría, ejemplo y análisis.
+
+---
+
+## PROMPT 28 — Promesas
+### Instrucción
+Explícame a fondo qué son las promesas, sus estados y cómo usarlas.
+
+### Contexto
+No entiendo bien resolve, reject, then y catch.
+
+### Entrada
+Enséñame las promesas.
+
+### Salida
+Teoría, ejemplos y análisis.
+
+---
+
+## PROMPT 29 — Async/Await
+### Instrucción
+Explícame cómo async y await simplifican el uso de promesas.
+
+### Contexto
+Quiero escribir código asincrónico más limpio.
+
+### Entrada
+Explica async/await.
+
+### Salida
+Teoría, ejemplo y análisis.
+
+---
+
+## PROMPT 30 — Módulos ES6
+### Instrucción
+Enséñame cómo funcionan import y export en JavaScript moderno.
+
+### Contexto
+Veo módulos en proyectos modernos y quiero entenderlos.
+
+### Entrada
+Explícame cómo funcionan los módulos ES6.
+
+### Salida
+Teoría, ejemplos y análisis.
+
